@@ -12,29 +12,32 @@
       font-family="Roboto"
     />
     <title>Document</title>
-    <link href="css/modern-normalize.css" rel="stylesheet">
+    <rel="stylesheet"
+   href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+  />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="body">
-    <header>
+    <header class="page-header">
+      <div class="container">
       <a class="link" lang="en" class="logo" href="./index.html"
         ><span class="logo-accent">Web</span
         ><span class="logo-accent-second">Studio</span></a
       >
-      <nav>
+      <nav class="navigation">
         <ul class="link">
-          <li>
+          <li class="item">
             <a class="list-style" href="./index.html">Студія</a>
           </li>
-          <li>
+          <li class="item">
             <a class="list-style" href="./portfolio.html">Портфоліо</a>
           </li>
-          <li>
+          <li class="item">
             <a class="list-style" href="#">Контакти</a>
           </li>
         </ul>
       </nav>
-      <ul class="list-style">
+      <ul class="nav-list" class="list-style">
         <li class="link">
           <a class="contacts" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
@@ -44,14 +47,18 @@
           <a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
+    </div>
     </header>
     <main>
       <section class="main-section">
+        <div class="container"></div>
         <h1 class="main-title">Ефективні рішення для вашого бізнесу</h1>
         <button class="main-button" type="button">Замовити послугу</button>
+      </div>
       </section>
-      <section>
-        <h2>Наші переваги</h2>
+      <section class="benefit-section">
+        <div class="container">
+        <h2 hidden class="section-title">Наші переваги</h2>
         <ul class="list-style">
           <li>
             <h3 class="benefits-title">УВАГА ДО ДЕТАЛЕЙ</h3>
@@ -81,61 +88,67 @@
             </p>
           </li>
         </ul>
+      </div>
       </section>
       <section>
         <h2 class="our-business">Чим ми займаємося</h2>
+        <div class="container">
         <ul class="list-style">
-          <li>
+          <li class="item-business">
             <img
               src="./images/box1.jpg"
               alt="Людина друкує на комп'ютері"
-              width="294"
+              width="370"
             />
           </li>
-          <li>
+          <li class="item-business">
             <img
               src="./images/box2.jpg"
               alt="Людина одночасно використовує телефон і ноутбук"
-              width="294"
+              width="370"
             />
           </li>
-          <li>
+          <li class="item-business">
             <img
               src="./images/box3.jpg"
               alt="Хтось переглядає спектр кольорів"
-              width="294"
+              width="370"
             />
           </li>
         </ul>
+      </div>
       </section>
       <section class="team">
         <h2 class="our-team">Наша команда</h2>
+        <div class="container">
         <ul class="list-style">
-          <li>
+          <li class="item-team">
             <img src="./images/img1.jpg" alt="Ігор_Дем'яненко" width="270" />
             <h3 class="workers">Ігор Дем'яненко</h3>
             <p class="positions">Product Designer</p>
           </li>
-          <li>
+          <li class="item-team">
             <img src="./images/img2.jpg" alt="Ольга_Рєпіна" width="270" />
             <h3 class="workers">Ольга Рєпіна</h3>
             <p class="positions">Frontend Developer</p>
           </li>
-          <li>
+          <li class="item-team">
             <img src="./images/img3.jpg" alt="Микола_Тарасов" width="270" />
             <h3 class="workers">Микола Тарасов</h3>
             <p class="positions">Marketing</p>
           </li>
-          <li>
+          <li class="item-team">
             <img src="./images/img4.jpg" alt="Михайло_Єрмаков" width="270" />
             <h3 class="workers">Михайло Єрмаков</h3>
             <p class="positions">UI Designer</p>
           </li>
         </ul>
+      </div>
       </section>
     </main>
     <footer class="footer">
-      <a class="link" lang="en" class="logo" href="./index.html"
+      <div class="container-footer">
+      <a class="link" lang="en" class="logo-footer" href="./index.html"
         ><span class="logo-accent">Web</span
         ><span class="logo-accent-footer">Studio</span></a
       >
@@ -148,6 +161,7 @@
               href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9"
               target="_blank"
               rel="noopener noreferrer nofollow"
+              class="adress-footer"
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
@@ -163,6 +177,7 @@
           </li>
         </ul>
       </address>
+    </div>
     </footer>
   </body>
 </html>

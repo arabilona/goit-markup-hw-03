@@ -12,16 +12,19 @@
       font-family="Roboto"
     />
     <title>Document</title>
-    <link href="css/modern-normalize.css" rel="stylesheet">
+    <rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+  />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body class="body">
-    <header>
+    <header class="page-header">
+      <div class="container">
       <a class="link" lang="en" class="logo" href="./index.html"
         ><span class="logo-accent">Web</span
         ><span class="logo-accent-second">Studio</span></a
       >
-      <nav>
+      <nav class="navigation">
         <ul class="link">
           <li>
             <a class="list-style" href="./index.html">Студія</a>
@@ -46,10 +49,12 @@
           >
         </li>
       </ul>
+    </div>
     </header>
     <main>
-      <section>
+      <section class="button-list">
         <ul class="list-style">
+          <div class="container">
           <li>
             <button class="button-style" type="button">Усі</button>
           </li>
@@ -66,7 +71,10 @@
             <button class="button-style" type="button">Маркетинг</button>
           </li>
         </ul>
-        <ul class="list-style">
+      </div>
+      <section>
+        <div class="container">
+        <ul class="list-style" class="examples">
           <li>
             <img
               src="./images/img5.jpg"
@@ -145,6 +153,7 @@
             <p class="portfolio-description">Додаток</p>
           </li>
         </ul>
+      </div>
       </section>
     </main>
     <footer class="footer">

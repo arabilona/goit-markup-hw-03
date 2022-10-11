@@ -1,6 +1,44 @@
 .body {
   font-family: "Roboto", sans-serif;
 }
+.page-header {
+  border: 1px solid #ECECEC;
+  display: block;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
+}
+.navigation .list-styles {
+  display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    box-sizing: border-box;
+    display: flex;
+    margin-left: auto;
+}
+.nav-list {
+  display: flex;
+  margin-left: auto;
+}
+.item .link {
+  margin-right: 50px;
+  display: list-item;
+  text-align: -webkit-match-parent;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 .logo {
   font-family: "Raleway";
   font-style: normal;
@@ -53,19 +91,34 @@
 }
 .main-section {
   background-color: #2f303a;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 .main-title {
   color: #ffffff;
+  width: 696px;
+    margin-top: 200;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  text-align: center;
 }
 .main-button {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+  border: 1px solid transparent;
+    padding: 10px 32px;
+    min-width: 216px;
   border-radius: 4px;
   font-style: normal;
   font-weight: 700;
@@ -80,6 +133,10 @@
 .main-button:focus {
   opacity: 0.3;
 }
+.benefit-section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .benefits-title {
   font-style: normal;
   font-weight: 700;
@@ -88,6 +145,8 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
+  width: 270px;
+  margin-left: 30px;
 }
 .description-benefits {
   font-style: normal;
@@ -97,6 +156,11 @@
   /* or 171% */
   letter-spacing: 0.03em;
   color: #757575;
+  margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    display: block;
+    width: 270px;
 }
 .our-business {
   font-style: normal;
@@ -106,6 +170,12 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  margin-top: 0;
+  margin-bottom: 50px;
+  display: block;
+}
+.item-business {
+  margin-right: 30px;
 }
 .list-style {
   list-style-type: none;
@@ -116,12 +186,22 @@
   font-size: 14px;
   line-height: 1.1;
   letter-spacing: 0.02em;
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 .list-style:hover {
   color: #2196f3;
 }
 .list-style:focus {
   color: #2196f3;
+}
+.button-list {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+  display: flex;
 }
 .button-style {
   font-style: normal;
@@ -132,6 +212,9 @@
   letter-spacing: 0.03em;
   color: #212121;
   cursor: pointer;
+  padding: 6px 22px;
+    border: 1px solid transparent;
+    border-radius: 4px;
 }
 .button-style:hover {
   color: #ffffff;
@@ -140,6 +223,11 @@
 .button-style:focus {
   color: #ffffff;
   background-color: #2196f3;
+}
+.examples {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 .main-button,
 .button-style {
@@ -155,6 +243,9 @@
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: #212121;
+  text-align: center;
+  margin-top: 0;
+    margin-bottom: 50px;
 }
 .workers {
   font-style: normal;
@@ -164,6 +255,12 @@
   /* identical to box height */
   letter-spacing: 0.03em;
   color: #212121;
+  margin: 0;
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+.item-team {
+  margin-right: 30px;
 }
 .positions {
   font-style: normal;
@@ -173,9 +270,39 @@
   /* identical to box height */
   letter-spacing: 0.03em;
   color: #757575;
+  margin-top: 0%;
+    margin-bottom: 0%;
+    padding-bottom: 30px;
+}
+.conteiner-footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  align-items: center;
 }
 .footer {
   background-color: #2f303a;
+  padding-top: 60px;
+    padding-bottom: 60px;
+}
+.logo-footer {
+  display: block;
+    margin-bottom: 20px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+.adress-footer {
+  padding-bottom: 9px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .map {
   font-style: normal;
