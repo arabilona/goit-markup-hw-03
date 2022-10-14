@@ -2,7 +2,7 @@
   font-family: "Roboto", sans-serif;
 }
 .page-header {
-  border: 1px solid #ECECEC;
+  border: 1px solid #ececec;
   display: block;
 }
 .container {
@@ -16,19 +16,20 @@
 }
 .navigation .list-styles {
   display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    box-sizing: border-box;
-    display: flex;
-    margin-left: auto;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  box-sizing: border-box;
+  display: flex;
+  margin-left: auto;
 }
 .nav-list {
   display: flex;
   margin-left: auto;
+  justify-content: space-between;
 }
 .item {
   display: inline-block;
@@ -84,11 +85,11 @@
   list-style-type: none;
   display: block;
   padding-top: 15px;
-    padding-bottom: 15px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em
+  padding-bottom: 15px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .link:hover {
   color: #2196f3;
@@ -99,8 +100,6 @@
 .main-section {
   background-color: #2f303a;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
   width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -108,10 +107,10 @@
 .main-title {
   color: #ffffff;
   width: 696px;
-    margin-top: 200;
-    margin-bottom: 40px;
-    margin-left: auto;
-    margin-right: auto;
+  margin-top: 200;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -124,8 +123,8 @@
   background: #2196f3;
   box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
   border: 1px solid transparent;
-    padding: 10px 32px;
-    min-width: 216px;
+  padding: 10px 32px;
+  min-width: 216px;
   border-radius: 4px;
   font-style: normal;
   font-weight: 700;
@@ -141,8 +140,8 @@
   opacity: 0.3;
 }
 .benefit-section {
-    padding-top: 94px;
-    padding-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .benefits-title {
   font-style: normal;
@@ -164,10 +163,10 @@
   letter-spacing: 0.03em;
   color: #757575;
   margin-top: 0;
-    margin-bottom: 10px;
-    margin-left: 30px;
-    display: block;
-    width: 270px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  display: block;
+  width: 270px;
 }
 .our-business {
   font-style: normal;
@@ -204,11 +203,49 @@
 .list-style:focus {
   color: #2196f3;
 }
+.list-portfolio {
+  margin-top: 0;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+.portfolio-button {
+  margin-right: 8px;
+}
+.port-but {
+  padding: 6px 22px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  margin-left: 8px;
+  color: #212121;
+  font-family: inherit;
+}
+.port-but:hover {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.port-but:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
 .button-list {
   text-align: center;
   margin-top: 0;
   margin-bottom: 50px;
-  display: flex;
+  text-align: center;
+  padding-top: 132px;
+}
+.ex-styles {
+  text-align: center;
+  padding-top: 56px;
+  gap: 30px;
+  width: 1200px;
 }
 .button-style {
   font-style: normal;
@@ -220,8 +257,8 @@
   color: #212121;
   cursor: pointer;
   padding: 6px 22px;
-    border: 1px solid transparent;
-    border-radius: 4px;
+  border: 1px solid transparent;
+  border-radius: 4px;
 }
 .button-style:hover {
   color: #ffffff;
@@ -234,6 +271,22 @@
 .examples {
   display: flex;
   flex-wrap: wrap;
+  gap: 30px;
+}
+.desc-examples {
+  padding: 20px 24px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #eeeeee;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-inline-start-color: #eeeeee;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #eeeeee;
+  gap: 30px;
+}
+.ex-list {
   gap: 30px;
 }
 .main-button,
@@ -252,7 +305,7 @@
   color: #212121;
   text-align: center;
   margin-top: 0;
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 .workers {
   font-style: normal;
@@ -263,8 +316,8 @@
   letter-spacing: 0.03em;
   color: #212121;
   margin: 0;
-    margin-bottom: 10px;
-    padding-top: 30px;
+  margin-bottom: 10px;
+  padding-top: 30px;
 }
 .item-team {
   margin-right: 30px;
@@ -278,8 +331,8 @@
   letter-spacing: 0.03em;
   color: #757575;
   margin-top: 0%;
-    margin-bottom: 0%;
-    padding-bottom: 30px;
+  margin-bottom: 0%;
+  padding-bottom: 30px;
 }
 .conteiner-footer {
   margin-left: auto;
@@ -293,8 +346,8 @@
 .footer {
   background-color: #2f303a;
   padding-top: 60px;
-    padding-bottom: 60px;
-    border: 1px solid #ECECEC;
+  padding-bottom: 60px;
+  border: 1px solid #ececec;
   display: block;
 }
 .list-footer {
@@ -306,12 +359,12 @@
 }
 .logo-footer {
   display: block;
-    margin-bottom: 20px;
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
+  margin-bottom: 20px;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .adress-footer {
   padding-bottom: 9px;
@@ -368,6 +421,8 @@
   /* identical to box height, or 200% */
   letter-spacing: 0.06em;
   color: #212121;
+  margin-top: 0;
+  margin-bottom: 4px;
 }
 .portfolio-description {
   font-style: normal;
@@ -377,4 +432,9 @@
   /* identical to box height, or 188% */
   letter-spacing: 0.03em;
   color: #757575;
+  margin: 0%;
+}
+.portfolio-link {
+  text-decoration: none;
+  text-align: left;
 }
